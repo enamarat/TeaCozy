@@ -1,0 +1,183 @@
+/**General properties**/
+body{
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+
+/**Header**/
+header{
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  z-index: 2;
+  background-color: black;
+}
+
+.logo img{
+  padding: 10px 10px;
+  height: 50px;
+}
+
+.navigation{
+  width: 390px;
+}
+
+.navigation nav{
+  padding: 20px 10px;
+}
+
+.navigation span{
+  text-decoration: underline;
+  padding-right: 15px;
+}
+
+span#locations{
+  padding-right: 0px;
+}
+
+span#mission{
+  padding-left: 25px;
+}
+
+/**Content**/
+/*Mission*/
+.content{
+  display: flex;
+  position: relative;
+  top: 69px;
+  z-index: 1;
+  flex-direction: column;
+  align-items: center;
+  width: 1341px;
+}
+
+.main-image{
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  background-image: url("C:/projects/TeaCozy/resources/images/img-mission-background.jpg");
+  flex-direction: row;
+  align-items: center;
+}
+
+.line{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  height: 120px;
+  width: 1200px;
+}
+
+.subline1, .subline2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px;
+  height: 60px;
+}
+
+/*Featured Tea*/
+.tea-general{
+  width: 1000px;
+}
+
+.tea-images img{
+  width: 300px;
+  height: 200px;
+}
+
+.tea-images h4{
+  padding-top: 10px;
+  margin-top: 0px;
+}
+
+.tea-images{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.first-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.second-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.second-row .tea{
+  padding: 10px 18px;
+}
+
+/*Locations*/
+.locations{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 1200px;
+  background-image: url("C:/projects/TeaCozy/resources/images/img-locations-background.jpg");
+  margin-top: 30px;
+}
+
+.title h2{
+  margin-bottom: 0px;
+  padding-bottom: 15px;
+}
+
+.sites{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.site{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+width: 300px;
+height: 300px;
+background-color: black;
+opacity: 1;
+margin-right: 40px;
+}
+
+.site#last{
+  margin-right: 0px;
+}
+
+/*info*/
+.info{
+  position: relative;
+  top: 50px;
+  height: 200px;
+}
+
+/**Footer**/
+footer{
+  display: block;
+  position: relative;
+  top: 50px;
+  z-index: 1;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
