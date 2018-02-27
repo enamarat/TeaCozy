@@ -1,5 +1,5 @@
 /**General properties**/
-body{
+body {
   background-color: black;
   color: seashell;
   font-family: Helvetica;
@@ -10,7 +10,7 @@ body{
 }
 
 /**Header**/
-header{
+header {
   display: flex;
   justify-content: space-between;
   position: fixed;
@@ -21,35 +21,35 @@ header{
   background-color: black;
 }
 
-.logo img{
+.logo img {
   padding: 10px 10px;
   height: 50px;
 }
 
-.navigation{
+.navigation {
   width: 390px;
 }
 
-.navigation nav{
+.navigation nav {
   padding: 20px 10px;
 }
 
-.navigation span{
+.navigation span {
   text-decoration: underline;
   padding-right: 15px;
 }
 
-span#locations{
+span#locations {
   padding-right: 0px;
 }
 
-span#mission{
+span#mission {
   padding-left: 25px;
 }
 
 /**Content**/
 /*Mission*/
-.content{
+.content {
   display: flex;
   position: relative;
   top: 69px;
@@ -59,7 +59,7 @@ span#mission{
   width: 1341px;
 }
 
-.main-image{
+.main-image {
   display: flex;
   height: 700px;
   width: 1200px;
@@ -68,7 +68,7 @@ span#mission{
   align-items: center;
 }
 
-.line{
+.line {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -77,53 +77,54 @@ span#mission{
   width: 1200px;
 }
 
-.subline1, .subline2{
+.subline1,
+.subline2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0px 0px;
+  padding: 0;
   height: 60px;
 }
 
 /*Featured Tea*/
-.tea-general{
+.tea-general {
   width: 1000px;
 }
 
-.tea-images img{
+.tea-images img {
   width: 300px;
   height: 200px;
 }
 
-.tea-images h4{
+.tea-images h4 {
   padding-top: 10px;
   margin-top: 0px;
 }
 
-.tea-images{
+.tea-images {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
-.first-row{
+.first-row {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-.second-row{
+.second-row {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.second-row .tea{
+.second-row .tea {
   padding: 10px 18px;
 }
 
 /*Locations*/
-.locations{
+.locations {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -134,12 +135,12 @@ span#mission{
   margin-top: 30px;
 }
 
-.title h2{
+.title h2 {
   margin-bottom: 0px;
   padding-bottom: 15px;
 }
 
-.sites{
+.sites {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -147,7 +148,7 @@ span#mission{
   padding-top: 0px;
 }
 
-.site{
+.site {
 display: flex;
 flex-direction: column;
 justify-content: space-around;
@@ -158,19 +159,19 @@ opacity: 1;
 margin-right: 40px;
 }
 
-.site#last{
+.site#last {
   margin-right: 0px;
 }
 
 /*info*/
-.info{
+.info {
   position: relative;
   top: 50px;
   height: 200px;
 }
 
 /**Footer**/
-footer{
+footer {
   display: block;
   position: relative;
   top: 50px;
